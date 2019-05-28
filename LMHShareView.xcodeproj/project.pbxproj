@@ -17,10 +17,10 @@
 		8640E0F5229BFA8200B3DE19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8640E0F4229BFA8200B3DE19 /* main.m */; };
 		8640E0FF229BFA8200B3DE19 /* LMHShareViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8640E0FE229BFA8200B3DE19 /* LMHShareViewTests.m */; };
 		8640E10A229BFA8200B3DE19 /* LMHShareViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8640E109229BFA8200B3DE19 /* LMHShareViewUITests.m */; };
-		8640E123229BFAB100B3DE19 /* YCLSharedModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8640E11E229BFAB100B3DE19 /* YCLSharedModel.m */; };
-		8666ADEF229CD1F4003DAD23 /* YCLLiveShareStatesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8666ADE9229CD1F4003DAD23 /* YCLLiveShareStatesView.m */; };
-		8666ADF0229CD1F4003DAD23 /* YCLLiveShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8666ADEA229CD1F4003DAD23 /* YCLLiveShareView.m */; };
-		8666ADF1229CD1F4003DAD23 /* YCLShareSDKHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8666ADEC229CD1F4003DAD23 /* YCLShareSDKHelper.m */; };
+		8666ADFE229CE1AA003DAD23 /* YCLLiveShareStatesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8666ADF5229CE1AA003DAD23 /* YCLLiveShareStatesView.m */; };
+		8666ADFF229CE1AA003DAD23 /* YCLShareSDKHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8666ADF8229CE1AA003DAD23 /* YCLShareSDKHelper.m */; };
+		8666AE00229CE1AA003DAD23 /* YCLSharedModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8666ADFB229CE1AA003DAD23 /* YCLSharedModel.m */; };
+		8666AE01229CE1AA003DAD23 /* YCLLiveShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8666ADFD229CE1AA003DAD23 /* YCLLiveShareView.m */; };
 		A42004137313CC06918CC54B /* Pods_LMHShareViewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BBCBDCAD2D016C86E978A0D /* Pods_LMHShareViewUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -63,15 +63,15 @@
 		8640E105229BFA8200B3DE19 /* LMHShareViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LMHShareViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8640E109229BFA8200B3DE19 /* LMHShareViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMHShareViewUITests.m; sourceTree = "<group>"; };
 		8640E10B229BFA8200B3DE19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8640E11A229BFAB100B3DE19 /* YCLSharedModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCLSharedModel.h; sourceTree = "<group>"; };
-		8640E11E229BFAB100B3DE19 /* YCLSharedModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCLSharedModel.m; sourceTree = "<group>"; };
-		8666ADE8229CD1F4003DAD23 /* YCLShareSDKHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCLShareSDKHelper.h; sourceTree = "<group>"; };
-		8666ADE9229CD1F4003DAD23 /* YCLLiveShareStatesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCLLiveShareStatesView.m; sourceTree = "<group>"; };
-		8666ADEA229CD1F4003DAD23 /* YCLLiveShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCLLiveShareView.m; sourceTree = "<group>"; };
-		8666ADEB229CD1F4003DAD23 /* YCLLiveShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCLLiveShareView.h; sourceTree = "<group>"; };
-		8666ADEC229CD1F4003DAD23 /* YCLShareSDKHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCLShareSDKHelper.m; sourceTree = "<group>"; };
-		8666ADED229CD1F4003DAD23 /* YCLLiveShareStatesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCLLiveShareStatesView.h; sourceTree = "<group>"; };
-		8666ADEE229CD1F4003DAD23 /* YCLShareManagerHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCLShareManagerHeader.h; sourceTree = "<group>"; };
+		8666ADF4229CE1AA003DAD23 /* YCLShareManagerHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCLShareManagerHeader.h; sourceTree = "<group>"; };
+		8666ADF5229CE1AA003DAD23 /* YCLLiveShareStatesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCLLiveShareStatesView.m; sourceTree = "<group>"; };
+		8666ADF6229CE1AA003DAD23 /* YCLSharedModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCLSharedModel.h; sourceTree = "<group>"; };
+		8666ADF7229CE1AA003DAD23 /* YCLLiveShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCLLiveShareView.h; sourceTree = "<group>"; };
+		8666ADF8229CE1AA003DAD23 /* YCLShareSDKHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCLShareSDKHelper.m; sourceTree = "<group>"; };
+		8666ADFA229CE1AA003DAD23 /* YCLLiveShareStatesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCLLiveShareStatesView.h; sourceTree = "<group>"; };
+		8666ADFB229CE1AA003DAD23 /* YCLSharedModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCLSharedModel.m; sourceTree = "<group>"; };
+		8666ADFC229CE1AA003DAD23 /* YCLShareSDKHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCLShareSDKHelper.h; sourceTree = "<group>"; };
+		8666ADFD229CE1AA003DAD23 /* YCLLiveShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCLLiveShareView.m; sourceTree = "<group>"; };
 		8BBCBDCAD2D016C86E978A0D /* Pods_LMHShareViewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LMHShareViewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C13640DFCBB4BB92A28C60B9 /* Pods-LMHShareViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LMHShareViewTests.release.xcconfig"; path = "Target Support Files/Pods-LMHShareViewTests/Pods-LMHShareViewTests.release.xcconfig"; sourceTree = "<group>"; };
 		CC3BC171C036C9E3B3C6BDDF /* Pods-LMHShareViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LMHShareViewTests.debug.xcconfig"; path = "Target Support Files/Pods-LMHShareViewTests/Pods-LMHShareViewTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -141,7 +141,7 @@
 		8640E0E4229BFA8200B3DE19 /* LMHShareView */ = {
 			isa = PBXGroup;
 			children = (
-				8640E117229BFAB100B3DE19 /* ShareManager */,
+				8666ADF2229CE1AA003DAD23 /* LMHShareView */,
 				8640E0E5229BFA8200B3DE19 /* AppDelegate.h */,
 				8640E0E6229BFA8200B3DE19 /* AppDelegate.m */,
 				8640E0E8229BFA8200B3DE19 /* ViewController.h */,
@@ -173,18 +173,26 @@
 			path = LMHShareViewUITests;
 			sourceTree = "<group>";
 		};
-		8640E117229BFAB100B3DE19 /* ShareManager */ = {
+		8666ADF2229CE1AA003DAD23 /* LMHShareView */ = {
 			isa = PBXGroup;
 			children = (
-				8666ADEE229CD1F4003DAD23 /* YCLShareManagerHeader.h */,
-				8666ADED229CD1F4003DAD23 /* YCLLiveShareStatesView.h */,
-				8666ADE9229CD1F4003DAD23 /* YCLLiveShareStatesView.m */,
-				8666ADEB229CD1F4003DAD23 /* YCLLiveShareView.h */,
-				8666ADEA229CD1F4003DAD23 /* YCLLiveShareView.m */,
-				8666ADE8229CD1F4003DAD23 /* YCLShareSDKHelper.h */,
-				8666ADEC229CD1F4003DAD23 /* YCLShareSDKHelper.m */,
-				8640E11A229BFAB100B3DE19 /* YCLSharedModel.h */,
-				8640E11E229BFAB100B3DE19 /* YCLSharedModel.m */,
+				8666ADF3229CE1AA003DAD23 /* ShareManager */,
+			);
+			path = LMHShareView;
+			sourceTree = "<group>";
+		};
+		8666ADF3229CE1AA003DAD23 /* ShareManager */ = {
+			isa = PBXGroup;
+			children = (
+				8666ADF4229CE1AA003DAD23 /* YCLShareManagerHeader.h */,
+				8666ADF5229CE1AA003DAD23 /* YCLLiveShareStatesView.m */,
+				8666ADF6229CE1AA003DAD23 /* YCLSharedModel.h */,
+				8666ADF7229CE1AA003DAD23 /* YCLLiveShareView.h */,
+				8666ADF8229CE1AA003DAD23 /* YCLShareSDKHelper.m */,
+				8666ADFA229CE1AA003DAD23 /* YCLLiveShareStatesView.h */,
+				8666ADFB229CE1AA003DAD23 /* YCLSharedModel.m */,
+				8666ADFC229CE1AA003DAD23 /* YCLShareSDKHelper.h */,
+				8666ADFD229CE1AA003DAD23 /* YCLLiveShareView.m */,
 			);
 			path = ShareManager;
 			sourceTree = "<group>";
@@ -199,7 +207,6 @@
 				4A67046B22BD9C0F68A1BC4E /* Pods-LMHShareViewUITests.debug.xcconfig */,
 				F6A918F938F7109A03C76A31 /* Pods-LMHShareViewUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -462,11 +469,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8640E0EA229BFA8200B3DE19 /* ViewController.m in Sources */,
-				8666ADF0229CD1F4003DAD23 /* YCLLiveShareView.m in Sources */,
-				8666ADF1229CD1F4003DAD23 /* YCLShareSDKHelper.m in Sources */,
-				8640E123229BFAB100B3DE19 /* YCLSharedModel.m in Sources */,
+				8666AE00229CE1AA003DAD23 /* YCLSharedModel.m in Sources */,
+				8666ADFE229CE1AA003DAD23 /* YCLLiveShareStatesView.m in Sources */,
+				8666ADFF229CE1AA003DAD23 /* YCLShareSDKHelper.m in Sources */,
+				8666AE01229CE1AA003DAD23 /* YCLLiveShareView.m in Sources */,
 				8640E0F5229BFA8200B3DE19 /* main.m in Sources */,
-				8666ADEF229CD1F4003DAD23 /* YCLLiveShareStatesView.m in Sources */,
 				8640E0E7229BFA8200B3DE19 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
